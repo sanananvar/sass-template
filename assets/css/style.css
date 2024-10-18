@@ -1,0 +1,158 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css);
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.header {
+  z-index: 9999;
+  height: 70px;
+  width: 100%;
+  padding: 20px 0px 0px;
+  background-color: transparent;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+}
+.header .header-wrapper {
+  height: 70px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.header .header-wrapper .nav-list {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.header .header-wrapper .nav-list ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header .header-wrapper .nav-list ul :not(:first-child) {
+  color: white;
+}
+.header .header-wrapper .nav-list ul :first-child {
+  color: red;
+}
+
+.hero {
+  height: 850px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.hero img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.hero .hero-context {
+  min-height: 400px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  position: absolute;
+  color: white;
+}
+.hero .hero-context h1 {
+  font-size: 40px;
+}
+.hero .hero-context h6 {
+  font-size: 20px;
+}
+.hero .hero-context button {
+  padding: 20px;
+  border: 1px solid red;
+}
+.hero .hero-context button p {
+  color: white;
+}
+.hero .hero-context button .overlay-red {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+
+.about {
+  min-height: 700px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.about .about-wrapper {
+  height: 100%;
+  width: 70%;
+}
+.about .about-wrapper .top {
+  height: 200px;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.about .about-wrapper .top .horizontal {
+  height: 3px;
+  width: 50px;
+  background-color: red;
+}
+.about .about-wrapper .top p {
+  text-align: center;
+  width: 750px;
+}
+.about .about-wrapper .bottom {
+  min-height: 500px;
+  width: 100%;
+  display: flex;
+}
+.about .about-wrapper .bottom .about-card {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 25%;
+}
+.about .about-wrapper .bottom .about-card .icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+.about .about-wrapper .bottom .about-card .icon-div i {
+  font-size: 50px;
+}
+.about .about-wrapper .bottom .about-card .icon-div:hover {
+  background-color: red;
+}
+.about .about-wrapper .bottom .about-card button {
+  border: 1px solid red;
+  padding: 20px;
+}
+
+.contact {
+  min-height: 600px;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,26 @@
+@mixin flex($display, $justify-content, $align-items, $flex-direction) {
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-direction: $flex-direction;
+
+}
+
+
+@mixin flex-vol2($display,$align-items,$flex-direction){
+    display: $display;
+    align-items: $align-items;
+    flex-direction: $flex-direction;
+}
+
+@mixin flex-3($display, $justify-content) {
+    display: $display;
+    justify-content: $justify-content;
+   
+}
+
+@mixin flex-4($display, $align-items) {
+    display: $display;
+    align-items: $align-items;
+   
+}

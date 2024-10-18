@@ -1,0 +1,33 @@
+.header{
+    z-index: 9999;
+    height: 70px;
+    width: 100%;
+    padding: 20px 0px 0px;
+    background-color: transparent;
+    position: fixed;
+    @include flex-3(flex,center);
+
+    .header-wrapper{
+        height: 70px;
+        width: 70%;
+        @include flex-3(flex,space-between);
+
+        .nav-list{
+            height: 50px;
+            @include flex-4(flex,center);
+
+            ul{
+                :not(:first-child){
+                    color: white
+                }
+                :first-child{
+                    color: red;
+                }
+                @include flex-4(flex,center);
+                gap: 30px;
+
+            }
+        }
+
+    }
+}
